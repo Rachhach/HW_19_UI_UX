@@ -1,1 +1,8 @@
-console.log("Your index.js file is loaded correctly!");
+$(document).ready(function(){
+$(".image2").hover(function(){
+    $(this).toggle
+  ();
+});
+  });
+
+ 
