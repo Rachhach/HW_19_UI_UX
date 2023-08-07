@@ -5,4 +5,9 @@ $(".image2").hover(function(){
 });
   });
 
- 
+
+ $(document).ready(function(){
+  $("button").click(function(){
+    $(".topbutton").width(1250).height();
+  });
+});
