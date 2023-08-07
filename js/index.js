@@ -8,6 +8,15 @@ $(".image2").hover(function(){
 
  $(document).ready(function(){
   $("button").click(function(){
-    $(".topbutton").width(1250).height();
-  });
+    $(".topbutton").animate({"width": "+=300px"},"slow").delay(500)
+    .animate({"width": "-=300px"},"slow")
+    });
 });
+
+$(document).ready(function(){
+  $(".topbutton").click(function(){
+    $("this").css({"color": "#0EF1D6"}).delay(500)
+    .css({"color": "#F10EA4"})
+    });
+});
+
