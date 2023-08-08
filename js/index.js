@@ -29,13 +29,14 @@ $(document).ready(function(){
 
       $(document).ready(function(){
         $("#whtarrow").click(function(){
-          $("p").hide(),
-          $("#whtarrow").click(function(){
-            $("p").show()
+          $("p").animate({"opacity": "+=100%"});
+ $("p").toggle("fast")
           });
-          });
-          
-        });
+      });
+
+
+  
+
          
 
         
