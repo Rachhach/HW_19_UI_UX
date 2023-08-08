@@ -17,7 +17,7 @@ $(".image2").hover(function(){
 $(document).ready(function(){
   $("button").click(function(){
     $(this).css({color: "#0EF1D6"})
-     });
+         });
     });
 
 
@@ -30,7 +30,7 @@ $(document).ready(function(){
       $(document).ready(function(){
         $("#whtarrow").click(function(){
           $("p").animate({"opacity": "+=100%"});
- $("p").toggle("fast")
+ $("p").toggle(".answer p")
           });
       });
 

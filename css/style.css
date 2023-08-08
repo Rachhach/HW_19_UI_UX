@@ -84,13 +84,14 @@ line-height: normal;
   }
 
  .answer p {
-  opacity: 0%;
-  -moz-transition: transform .5s;
-  -webkit-transition: transform .5s;
-  transition: transform .5s;
+  display: none;
  }
 
- .hide {
-  transform: opacity(+=100%)
+ .gif h1 {
+  position: relative;
+  left: 640px;
+  top: 350px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 2px;
+  font-size: 42px;
  }
- 
