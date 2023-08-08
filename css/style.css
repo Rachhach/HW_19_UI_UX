@@ -72,3 +72,13 @@ line-height: normal;
     bottom: -20px;
     left: 33%;
   }
+
+  #whtarrow {
+    -moz-transition: transform 1s;
+    -webkit-transition: transform 1s;
+    transition: transform 1s;
+  }
+  
+  .flip {
+    transform: rotate(-180deg);
+  }

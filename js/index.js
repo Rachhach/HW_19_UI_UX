@@ -20,4 +20,9 @@ $(document).ready(function(){
      });
     });
 
-    
+
+    $(document).ready(function() {
+      $( ".toggle" ).click( function() {
+            $("#whtarrow").css({'transform': 'rotate(-180deg)'});
+        });
+    });
