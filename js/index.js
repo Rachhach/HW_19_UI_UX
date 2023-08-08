@@ -22,7 +22,22 @@ $(document).ready(function(){
 
 
     $(document).ready(function() {
-      $( ".toggle" ).click( function() {
-            $("#whtarrow").css({'transform': 'rotate(-180deg)'});
+      $("#whtarrow").click(function() {
+          $("#whtarrow").toggleClass("flip")
+      });
+      });
+
+      $(document).ready(function(){
+        $("#whtarrow").click(function(){
+          $("p").hide();
+          $("#whtarrow").click(function(){
+            $("p").show();
+          
         });
+      });
     });
+
+        
+
+      
+     
