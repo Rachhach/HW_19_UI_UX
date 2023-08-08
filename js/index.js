@@ -29,13 +29,15 @@ $(document).ready(function(){
 
       $(document).ready(function(){
         $("#whtarrow").click(function(){
-          $("p").hide();
+          $("p").hide(),
           $("#whtarrow").click(function(){
-            $("p").show();
+            $("p").show()
+          });
+          });
           
         });
       });
-    });
+   
 
         
 
