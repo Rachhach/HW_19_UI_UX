@@ -13,10 +13,11 @@ $(".image2").hover(function(){
     });
 });
 
-$(document).ready(function(){
-  $(".topbutton").click(function(){
-    $("this").css({"color": "#0EF1D6"}).delay(500)
-    .css({"color": "#F10EA4"})
-    });
-});
 
+$(document).ready(function(){
+  $("button").click(function(){
+    $(this).css({color: "#0EF1D6"})
+     });
+    });
+
+    

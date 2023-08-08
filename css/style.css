@@ -40,3 +40,35 @@ line-height: normal;
     left: 0px;
     
   }
+
+  .title {
+    position: absolute;
+    top: 450px;
+    left: 18%;
+  }
+
+  .title h1 {
+    color: white;
+    font-size: 56px;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 65px;
+    left: 700px;
+  }
+
+  .answer p {
+    position: absolute;
+    top: 550px;
+    left: 350px;
+    font-size: 32px;
+    font-weight: 900;
+
+  }
+
+  .arrowmove {
+    position: absolute;
+    bottom: -20px;
+    left: 33%;
+  }
